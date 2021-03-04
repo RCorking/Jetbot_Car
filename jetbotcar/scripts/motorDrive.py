@@ -52,8 +52,8 @@ def driveCallback(msg):
 if __name__ == "__main__":
     motor_driver  = Adafruit_MotorHAT(i2c_bus=1)
 
-    motor_left_ID = 2
-    motor_right_ID = 1
+    motor_left_ID = 1
+    motor_right_ID = 2
 
     motor_left  = motor_driver.getMotor(motor_left_ID)
     motor_right = motor_driver.getMotor(motor_right_ID)
